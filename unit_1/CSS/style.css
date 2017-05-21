@@ -1,2 +1,6 @@
+body {text-align: center;}
 body {color: black;
-background-color: #FFF7F9;}
+background-color: #ffe9ec;}
+h1,h3 {font-family: Arial, sans-serif;}
+h3 {font-size: 24px;}
+h3 {font-weight: normal;}
