@@ -9,6 +9,9 @@ body {
 	line-height: 1.5;
 	text-align: center; 
 }
+section {
+	padding:5em 0;
+}
 header {
 	text-align: center;  
 }
@@ -35,10 +38,15 @@ h2 {
 	font-size: 1.5em;
 }
 img  {
-	opacity: .7; 
+	opacity: .7;
 	display: block;
 	margin: auto;
-    width: 50%
+	width: 50%;
+}
+#footage img {
+	float:left;
+	padding:1em;
+	width:33.33%;
 }    
 a {
 	color: inherit;
@@ -69,8 +77,9 @@ a {
 
 #about {
 	 font-size: 1.2em;
-  	width: 75%;
-  	display: inline-block;
+	 /* width: 75%; */
+	 /* display: inline-block; */
+	 margin:auto;
 }
 
 #bey {
