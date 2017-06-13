@@ -10,8 +10,9 @@ body {
 	text-align: center; 
 }
 section {
-	padding:5em 0;
+	padding:4em 0;
 }
+
 header {
 	text-align: center;  
 }
@@ -43,14 +44,17 @@ img  {
 	margin: auto;
 	width: 50%;
 }
+
 #footage img {
-	float:left;
 	padding:1em;
 	width:33.33%;
+
 }    
 a {
 	color: inherit;
+
 }
+ 
 
 #left {
   
@@ -77,8 +81,6 @@ a {
 
 #about {
 	 font-size: 1.2em;
-	 /* width: 75%; */
-	 /* display: inline-block; */
 	 margin:auto;
 }
 
@@ -91,6 +93,10 @@ a {
 	padding: 40px;
     float: right;   
     width: 50%;}
+
+#footage {clear:both;}
+
+#resume {clear:both;}
 
 #resumepic {
 	display: block;
