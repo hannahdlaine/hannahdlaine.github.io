@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	color: #404040; 
-	background-color: #ffe9ec; 
+	color: #404040;
+	background-color: #ffe9ec;
 	font-family: "times new Roman", Times, serif;
 	font-size:18px;
 	font-weight:200;
 	line-height: 1.5;
-	text-align: center; 
 }
 section {
 	padding:3em 0;
@@ -28,7 +27,7 @@ header {
 .scrollmenu a:hover {
     background-color: #777;
 }
-h1, h2 {font-weight: 200;}
+h1, h2 {font-weight: 200;text-align: center;}
 
 
 h1 {font-size: 4em; font-family: 'Pontano Sans', sans-serif; text-transform: uppercase;}
@@ -37,6 +36,9 @@ h1 {font-size: 4em; font-family: 'Pontano Sans', sans-serif; text-transform: upp
 h2 {
 	font-style: italic; 
 	font-size: 1.5em;
+}
+#intro {
+	text-align:center;
 }
  #headshot {
 	opacity: .7;
@@ -49,30 +51,11 @@ h2 {
 a {
 	color: inherit;
 
-}
-
-@media only screen and (min-width: 680px) {  
-#right, #left  {
-	float: none; 
-	width: auto;
-	text-align: center;
-	display: block;
-
-}
-
-
-#left {
-  
-    padding: 1em;
-    float: left;
-    width: 50%;
-}
-
-#right {
- 
-    padding: 1em;
-    float: right;   
-    width: 50%;
+} 
+#right, #left,#bey, #bio  {
+	float: left;
+	width: 50%;
+	padding:1em;
 }
 
 .clearfix:after {
@@ -88,50 +71,33 @@ a {
 	 font-size: 1.2em;
 	 margin:auto;
 	 padding: 1em;
-
-
 }
-
-@media only screen and (min-width: 680px) {  
-#bey, #bio  {
-	float: none; 
-	width: auto;
-	text-align: center;
-	display: block;
-
-}
-
-#bey {
-    float: left;
-    width: 50%;
-    padding: 1em ;
-  
-}
-
-}
-
-#bio { 
-	padding: 2em;
-    float: right;   
-    width: 50%;
-}
-
-#footage {clear:both;}
-#collage {
-	width:90%;}
-
-
-#resume {clear:both;
-padding: 5em;}
-
-#television {text-align: left}
-#film {text-align: left}
-#commercial {text-align: left}
-#video {text-align: left}
-#stage {text-align: left}
-
-
 #contact {
 	background-color: #ffe9ec;
 	clear: both;
 }
+#collage {
+	width:90%;
+}
+
+
+#resume {
+	clear:both;
+	padding: 5em;
+}
+
+@media only screen and (max-width: 780px) {  
+	#bey {
+		width: 100%;
+
+	}
+	#bio { 
+		padding: 2em;   
+		width: 100%;
+	}
+	#left, #right {
+		padding:2em;
+		width:100%;
+	}
+}
+
