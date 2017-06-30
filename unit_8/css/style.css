@@ -50,18 +50,27 @@ a {
 	color: inherit;
 
 }
- 
+
+@media only screen and (min-width: 680px) {  
+#right, #left  {
+	float: none; 
+	width: auto;
+	text-align: center;
+	display: block;
+
+}
+
 
 #left {
   
-    padding: 10px;
+    padding: 1em;
     float: left;
     width: 50%;
 }
 
 #right {
  
-    padding: 10px;
+    padding: 1em;
     float: right;   
     width: 50%;
 }
@@ -83,6 +92,15 @@ a {
 
 }
 
+@media only screen and (min-width: 680px) {  
+#bey, #bio  {
+	float: none; 
+	width: auto;
+	text-align: center;
+	display: block;
+
+}
+
 #bey {
     float: left;
     width: 50%;
@@ -93,7 +111,7 @@ a {
 }
 
 #bio { 
-	padding: 40px;
+	padding: 2em;
     float: right;   
     width: 50%;
 }
